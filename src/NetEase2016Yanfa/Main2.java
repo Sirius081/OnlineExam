@@ -3,12 +3,15 @@ package NetEase2016Yanfa;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.Stack;
 
 /**
  * Created by sirius on 17-3-24.
  */
 public class Main2 {
     public static void main(String[] args) {
+        Stack s=new Stack();
+
         Scanner sc=new Scanner(System.in);
         while (sc.hasNext()){
             int n=sc.nextInt();//路灯数
